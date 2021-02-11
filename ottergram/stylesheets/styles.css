@@ -63,14 +63,6 @@ a {
     border: 1px solid rgba(100%,100%,100%, 0.8);
 }
 
-.thumbnail-item {
-    max-width: 260px;
-}
-
-.thumbnail-item + .thumbnail-item {
-    margin-top: 20px;
-}
-
 .thumbnail-list {
     flex: 0 1 auto;
     order: 2;
@@ -81,12 +73,6 @@ a {
 
     white-space: nowrap;
     overflow-x: auto;
-}
-
-.thumbnail-list {
-    flex-direction: column;
-    order: 0;
-    margin-left: 20px;
 }
 
 .thumbnail-image {
@@ -129,11 +115,4 @@ a {
     color: white;
     text-shadow: rgba(0,0,0,0.9) 1px 2px 9px;
     font-size: 40px;
-}
-
-@media all and (min-width: 768px) {
-    .main-content {
-        flex-direction: row;
-        overflow: hidden;
-    }
 }
